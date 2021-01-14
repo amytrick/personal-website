@@ -1,9 +1,11 @@
+"use strict";
+
 function Hello() {
     return (
       <ul>
-        <h1> React Demo Thing </h1>
+        <h1> Hi there! </h1>
         <p>Hi World!</p>
-        <p> Isn't that neat? </p>
+        <p> Hello! </p>
       </ul>
     );
   }
