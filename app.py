@@ -7,6 +7,18 @@ app = Flask(__name__)
 def home():
     return render_template('base.html')
 
+@app.route('/about')
+def about():
+    return render_template('base.html')
+
+@app.route('/works')
+def works():
+    return render_template('base.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('base.html')
+
 #===============================*    USER ROUTES   *========================================#
 
 if __name__ == '__main__':
