@@ -3,13 +3,9 @@
 function Contact() {
     return (
       <ul>
-        <h1> Contact Me! </h1>
-        <p> I have an email</p>
+        <h1>CONTACT.</h1>
+        <p>amyk.trick@gmail.com</p>
+        <p>linkedin: /amytrick</p>
       </ul>
     );
   }
-  
-//   ReactDOM.render(
-//     <Contact />,
-//     document.querySelector('#root')
-//   );

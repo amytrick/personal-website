@@ -5,31 +5,15 @@ const Route =  ReactRouterDOM.Route;
 const Link =  ReactRouterDOM.Link;
 const Switch = ReactRouterDOM.Switch;
 
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
-function Hello() {
-    return (
-      <ul>
-        <h1> Hi there! </h1>
-        <p>Hi World!</p>
-        <p> Hello! </p>
-      </ul>
-    );
-  }
-  
-  // ReactDOM.render(
-  //   <Hello />,
-  //   document.querySelector('#root')
-  // );
 
   function App() {
     return (
       <Router>
         <nav>
           <ul>
-            <li>
+            {/* <li>
                 <Link to="/"> Home </Link>
-            </li>
+            </li> */}
             <li>
                 <Link to="/about"> About </Link>
             </li>
