@@ -1,29 +1,20 @@
 "use strict";
 
-const Router = ReactRouterDOM.BrowserRouter;
-const Route =  ReactRouterDOM.Route;
-const Link =  ReactRouterDOM.Link;
-const Switch = ReactRouterDOM.Switch;
-
-
-  function App() {
+function App() {
     return (
       <Router>
         <nav>
-          <ul>
-            {/* <li>
-                <Link to="/"> Home </Link>
-            </li> */}
-            <li>
+          {/* <ul> */}
+            <p>
                 <Link to="/about"> About </Link>
-            </li>
-            <li>
+            </p>
+            <p>
                 <Link to="/works"> Works </Link>
-            </li>
-            <li>
+            </p>
+            <p>
                 <Link to="/contact"> Contact </Link>
-            </li>
-          </ul>
+            </p>
+          {/* </ul> */}
         </nav>
         <div>
           <Switch>

@@ -1,26 +1,18 @@
 "use strict";
 
+//import React from 'react';
+//import { Grid, Row, Col } from 'react-bootstrap';
+//import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
-function Hello() {
-    return (
-        <h1> HELLO </h1>
+
+const Hello = () => {
+  return (
+      <Container>
+        <Row>
+          <Col>1 of 1</Col>
+        </Row>
+      </Container>
     );
   }
-
-//   const Homepage = (props) => {
-
-//     return (
-//           <Container className="homepage">
-//             <Row>
-//                 <Col sm={6}>
-              
-//                 </Col>
-
-//                 <Col sm={6}>
-
-//                 </Col>
-
-//             </Row>
-//           </Container>
-//     );
-// };
