@@ -1,17 +1,19 @@
 "use strict";
 
-//import React from 'react';
-//import { Grid, Row, Col } from 'react-bootstrap';
-//import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
-
 const Hello = () => {
   return (
-      <Container>
-        <Row>
-          <Col>1 of 1</Col>
+      <Container id="container">
+        <Row id="colorblock-row">
+          <Col>
+            <div id="colorblock">
+              <h1>
+                <p>HE</p>
+                <p>LLO.</p>
+              </h1>
+            </div>
+          </Col>
+          <Col>
+          </Col>
         </Row>
       </Container>
     );
